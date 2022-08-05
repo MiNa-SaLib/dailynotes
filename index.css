@@ -1,0 +1,76 @@
+body {
+  background-color: #4d284e;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+.conainer {
+  width: 80%;
+  text-align: center;
+  margin: 30px auto;
+}
+.input {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#save i {
+  color: white;
+}
+textarea {
+  padding: 5px;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 200px;
+  min-height: 200px;
+  outline: none;
+  border-radius: 10px;
+}
+pre {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  word-break: break-word;
+  white-space: pre-wrap;
+  color: #ffde03;
+}
+pre button {
+  margin-top: 15px;
+}
+button {
+  margin-top: 15px;
+  background-color: #9c27b0;
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+I {
+  padding: 0 0 0 10px;
+  color: red;
+}
+summary pre {
+  display: inline;
+  font-size: 16px;
+  color: white;
+}
+details {
+  background-color: #19181a;
+  padding: 10px;
+  margin-top: 10px;
+  transition: 1s;
+  color: white;
+  border-radius: 10px;
+  text-align: left;
+}
+.clear {
+  background-color: red;
+  text-align: center;
+}
+.clear i {
+  color: white;
+}
