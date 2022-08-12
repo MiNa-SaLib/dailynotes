@@ -20,7 +20,7 @@ if (hours > 12 && hours <= 23) {
   fulldate = `${date.toDateString()}   ${hours}:${minuts} PM`;
 }
 
-if (hours >= 0 && hours <= 12) {
+else if (hours >= 0 && hours <= 12) {
   if (hours == 0) {
     hours = 12;
     fulldate = `${date.toDateString()}   ${hours}:${minuts} AM`;
