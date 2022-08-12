@@ -5,6 +5,76 @@ h1 {
   color: white;
   text-align: center;
 }
+.settings {
+  background-color: #9e9e9e;
+  width: fit-content;
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+  z-index: 1111;
+  margin-top: 10%;
+  margin-left: -104px;
+  border-radius: 10px;
+  transition: 0.5s;
+  font-size: 20px;
+  font-weight: bold;
+}
+.marginleftforsettings {
+  margin-left: -8px;
+}
+.colors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.colors span {
+  margin-left: 5px;
+}
+.num1 {
+  /* background-color: black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.num1 i {
+  padding: 0;
+}
+.num2 {
+  background-color: #000;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.num3 {
+  background-color: #ffde03;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.settings .fa-gear {
+  position: absolute;
+  top: 50%;
+  right: -25px;
+  margin-top: -12.5px;
+  padding: 0;
+  font-size: 25px;
+  color: #2196f3;
+  animation-name: routat;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes routat {
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .conainer {
   width: 80%;
   text-align: center;
